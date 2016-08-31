@@ -47,6 +47,20 @@ footer {
 }
 
 .boots {
-  height: 530px;
-  margin: 5px 20px 0 20px;
+  margin-top: 5px;
+
+  .product {
+
+    img {
+      width: 60%;
+      margin-left: 50px;
+    }
+
+    .product-info {
+
+      p {
+        margin: -5px;
+      }
+    }
+  }
 }
