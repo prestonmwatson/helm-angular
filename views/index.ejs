@@ -24,20 +24,17 @@
         <hr>
         <div class="row">
           <div id="logo" class="col-sm-1">
-            <img src="/images/logo.png" alt="logo">
+            <img ui-sref='home' src="/images/logo.png" alt="logo">
           </div>
           <div class="col-sm-11">
             <ul class='shop'>
-              <li class='shop'><a href="#">SHOP</a></li>
+              <li class='shop'><p ui-sref='shop'>SHOP</p></li>
             </ul>
           </div>
         </div>
     </nav>
 
-    <div class="hero">
-      <img src="/images/hero.jpg" alt="Helm Boots">
-    </div>
-
+    <ui-view></ui-view>
 
     <footer>
       <hr>

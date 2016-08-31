@@ -5,22 +5,20 @@ nav {
     margin-bottom: 5px; }
   nav img {
     height: 50px;
-    margin-left: 3px; }
+    margin-left: 3px;
+    cursor: pointer; }
   nav ul {
     padding-left: 20px; }
     nav ul li {
       list-style: none;
       font-family: 'Montserrat', sans-serif;
       margin-top: 16px; }
-      nav ul li a {
-        text-decoration: none;
-        color: black; }
-        nav ul li a:hover {
-          text-decoration: none;
-          color: black; }
+      nav ul li p {
+        cursor: pointer;
+        display: inline-block; }
 
 .hero {
-  margin: 5px 20px 0 20px; }
+  margin: 2px 20px 0 20px; }
   .hero img {
     width: 100%; }
 
@@ -29,3 +27,7 @@ footer {
   footer hr {
     border-color: black;
     width: 100%; }
+
+.boots {
+  height: 547px;
+  margin: 5px 20px 0 20px; }

@@ -9,6 +9,7 @@ nav {
   img {
     height: 50px;
     margin-left: 3px;
+    cursor: pointer;
   }
 
   ul {
@@ -19,14 +20,9 @@ nav {
         font-family: 'Montserrat', sans-serif;
         margin-top: 16px;
 
-        a {
-          text-decoration: none;
-          color: black;
-
-          &:hover {
-            text-decoration: none;
-            color: black;
-          }
+        p {
+          cursor: pointer;
+          display: inline-block;
         }
       }
 
@@ -34,7 +30,7 @@ nav {
 }
 
 .hero {
-  margin: 5px 20px 0 20px;
+  margin: 2px 20px 0 20px;
 
   img {
     width: 100%;
@@ -48,4 +44,9 @@ footer {
     border-color: black;
     width: 100%;
   }
+}
+
+.boots {
+  height: 547px;
+  margin: 5px 20px 0 20px;
 }
