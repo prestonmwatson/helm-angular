@@ -6,7 +6,7 @@
         <img src='{{ obj.image }}' alt="kiffen" />
         <div class="product-info">
           <p>{{ obj.name }}</p>
-          <p>{{ obj.price }}</p>
+          <p>{{ obj.price | currency:"$" }}</p>
           inline rating
         </div>
       </div>
