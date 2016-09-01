@@ -5,30 +5,36 @@ angular
     function ProductsController(){
       var self = this;
 
-      this.productList = {
-        'kiffen':{
-          'cost':569,
+      this.productList = [
+        {
+          'name':'Kiffen',
+          'price':569,
           'image':'/images/kiffen.jpg'
         },
-        'wells':{
-          'cost':569,
+        {
+          'name':'Wells',
+          'price':569,
           'image':'/images/wells.jpg'
         },
-        'ayers':{
-          'cost':499,
+        {
+          'name':'Ayers',
+          'price':499,
           'image':'/images/ayers.jpg'
         },
-        'muller teak':{
-          'cost':485,
+        {
+          'name':'Muller-teak',
+          'price':485,
           'image':'/images/muller-teak.jpg'
         },
-        'muller brown':{
-          'cost':485,
+        {
+          'name':'Muller brown',
+          'price':485,
           'image':'/images/muller-brown.jpg'
         },
-        'phillips':{
-          'cost':469,
+        {
+          'name':'Phillips',
+          'price':469,
           'image':'/images/phillips.jpg'
         }
-      }
+      ]
     }

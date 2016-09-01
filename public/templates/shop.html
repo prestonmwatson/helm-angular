@@ -1,61 +1,15 @@
-<div class="container">
+<div class="container" ng-controller='ProductsController as products'>
   <div class="row boots">
-    <div class="col-sm-4">
+
+    <div class="col-sm-4" ng-repeat='obj in products.productList'>
       <div class="product">
-        <img src="/images/kiffen.jpg" alt="kiffen" />
+        <img src='{{ obj.image }}' alt="kiffen" />
         <div class="product-info">
-          <p>Kiffen</p>
-          <p>$569.00</p>
+          <p>{{ obj.name }}</p>
+          <p>{{ obj.price }}</p>
           inline rating
         </div>
       </div>
 
-      <div class="product">
-        <img src="/images/kiffen.jpg" alt="kiffen" />
-        <div class="product-info">
-          <p>Kiffen</p>
-          <p>$569.00</p>
-          inline rating
-        </div>
-      </div>
-    </div>
-    <div class="col-sm-4">
-      <div class="product">
-        <img src="/images/kiffen.jpg" alt="kiffen" />
-        <div class="product-info">
-          <p>Kiffen</p>
-          <p>$569.00</p>
-          inline rating
-        </div>
-      </div>
-
-      <div class="product">
-        <img src="/images/kiffen.jpg" alt="kiffen" />
-        <div class="product-info">
-          <p>Kiffen</p>
-          <p>$569.00</p>
-          inline rating
-        </div>
-      </div>
-    </div>
-    <div class="col-sm-4">
-      <div class="product">
-        <img src="/images/kiffen.jpg" alt="kiffen" />
-        <div class="product-info">
-          <p>Kiffen</p>
-          <p>$569.00</p>
-          inline rating
-        </div>
-      </div>
-
-      <div class="product">
-        <img src="/images/kiffen.jpg" alt="kiffen" />
-        <div class="product-info">
-          <p>Kiffen</p>
-          <p>$569.00</p>
-          inline rating
-        </div>
-      </div>
-    </div>
   </div>
 </div>
