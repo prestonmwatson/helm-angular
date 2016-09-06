@@ -13,6 +13,13 @@ angular
         url: '/shop',
         templateUrl: '../templates/shop.html'
       })
+      .state('product', {
+        url: '/product?name',
+        templateUrl: '../templates/product.html',
+        controller: function($scope, $stateParams){
+          $scope.name = $stateParams.name;
+        }
+      })
 
       $urlRouterProvider.otherwise('/');
   }

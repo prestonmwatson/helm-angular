@@ -2,8 +2,12 @@ angular
     .module('helm')
     .controller('ProductsController', ProductsController);
 
+    ProductsController.$inject = ['$state'];
+
     function ProductsController(){
       var self = this;
+
+
 
       this.productList = [
         {
