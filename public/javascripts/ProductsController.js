@@ -41,4 +41,13 @@ angular
           'image':'/images/phillips.jpg'
         }
       ]
+
+      this.selected_product = [];
+
+      this.bootPicker = function(boot){
+        self.selected_product.pop();
+        self.selected_product.push(boot);
+      }
+
+
     }

@@ -1,8 +1,8 @@
-<div class="container" ng-controller='ProductsController as products'>
+<div class="container">
   <div class="row boots">
 
     <div class="col-sm-4" ng-repeat='obj in products.productList'>
-      <div class="product" ui-sref='product'>
+      <div class="product" ui-sref='product' ng-click='products.bootPicker(obj)'>
         <img src='{{ obj.image }}' alt="kiffen" />
         <div class="product-info">
           <p>{{ obj.name }}</p>
