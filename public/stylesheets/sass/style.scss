@@ -1,5 +1,5 @@
 nav {
-  margin: 2% 20px 0 20px;
+  margin: 0 20px 0 20px;
 
   hr {
     border-color: black;
@@ -72,15 +72,22 @@ footer {
     img {
       margin-top: 15px;
       margin-left: 75px;
-      width: 70%;
+      width: 60%;
     }
 
     .grey-bar {
-      height: 400px;
+      height: 330px;
       width: 10px;
       background-color: rgb(250,250,250);
       border-right: lightgrey solid 1px;
       border-left: lightgrey solid 1px;
+    }
+
+    .cart {
+      margin: 30px 0 0 7px;
+      width: 150px;
+      background-color: darken(grey, .8);
+      color: white;
     }
   }
 
@@ -92,7 +99,7 @@ footer {
     text-align: center;
 
     h4 {
-      padding: 30px;
+      padding-top: 30px;
     }
 
     img {

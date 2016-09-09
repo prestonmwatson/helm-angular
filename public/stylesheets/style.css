@@ -1,5 +1,5 @@
 nav {
-  margin: 2% 20px 0 20px; }
+  margin: 0 20px 0 20px; }
   nav hr {
     border-color: black;
     margin-bottom: 5px; }
@@ -39,14 +39,20 @@ footer {
 .pdp .pdp-top img {
   margin-top: 15px;
   margin-left: 75px;
-  width: 70%; }
+  width: 60%; }
 
 .pdp .pdp-top .grey-bar {
-  height: 400px;
+  height: 330px;
   width: 10px;
   background-color: #fafafa;
   border-right: lightgrey solid 1px;
   border-left: lightgrey solid 1px; }
+
+.pdp .pdp-top .cart {
+  margin: 30px 0 0 7px;
+  width: 150px;
+  background-color: #7e7e7e;
+  color: white; }
 
 .pdp .pdp-text {
   margin-left: 10px; }
@@ -54,7 +60,7 @@ footer {
 .pdp .pdp-bottom {
   text-align: center; }
   .pdp .pdp-bottom h4 {
-    padding: 30px; }
+    padding-top: 30px; }
   .pdp .pdp-bottom img {
     width: 60%;
     margin-left: 50px; }
