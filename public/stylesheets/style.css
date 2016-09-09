@@ -36,9 +36,28 @@ footer {
   .boots .product .product-info p {
     margin: -5px; }
 
-.pdp img {
+.pdp .pdp-top img {
   margin-top: 15px;
+  margin-left: 75px;
   width: 70%; }
+
+.pdp .pdp-top .grey-bar {
+  height: 400px;
+  width: 10px;
+  background-color: #fafafa;
+  border-right: lightgrey solid 1px;
+  border-left: lightgrey solid 1px; }
 
 .pdp .pdp-text {
   margin-left: 10px; }
+
+.pdp .pdp-bottom {
+  text-align: center; }
+  .pdp .pdp-bottom h4 {
+    padding: 30px; }
+  .pdp .pdp-bottom img {
+    width: 60%;
+    margin-left: 50px; }
+  .pdp .pdp-bottom .product-info {
+    text-align: left;
+    margin-left: 60px; }

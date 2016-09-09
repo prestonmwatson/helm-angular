@@ -67,12 +67,43 @@ footer {
 
 .pdp {
 
-  img {
-    margin-top: 15px;
-    width: 70%;
+  .pdp-top {
+
+    img {
+      margin-top: 15px;
+      margin-left: 75px;
+      width: 70%;
+    }
+
+    .grey-bar {
+      height: 400px;
+      width: 10px;
+      background-color: rgb(250,250,250);
+      border-right: lightgrey solid 1px;
+      border-left: lightgrey solid 1px;
+    }
   }
 
   .pdp-text {
     margin-left: 10px;
+  }
+
+  .pdp-bottom {
+    text-align: center;
+
+    h4 {
+      padding: 30px;
+    }
+
+    img {
+      width: 60%;
+      margin-left: 50px;
+    }
+
+    .product-info {
+      text-align: left;
+      margin-left: 60px;
+    }
+
   }
 }
