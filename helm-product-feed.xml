@@ -19,9 +19,11 @@
         <ExternalId>kiffen</ExternalId>
         <Name>Kiffen</Name>
         <CategoryExternalId>boots</CategoryExternalId>
-        <ProductPageURL>fill in with heroku</ProductPageURL>
+        <ProductPageUrl>fill in with heroku</ProductPageUrl>
         <ImageUrl></ImageUrl>
-        <UPCs>123456789011</UPCs>
+        <UPCs>
+          <UPC>123456789011</UPC>
+        </UPCs>
         <BrandExternalId>helmboots</BrandExternalId>
       </Product>
 
@@ -29,9 +31,11 @@
         <ExternalId>wells</ExternalId>
         <Name>Wells</Name>
         <CategoryExternalId>boots</CategoryExternalId>
-        <ProductPageURL>fill in with heroku</ProductPageURL>
+        <ProductPageUrl>fill in with heroku</ProductPageUrl>
         <ImageUrl></ImageUrl>
-        <UPCs>123456789012</UPCs>
+        <UPCs>
+          <UPC>123456789012</UPC>
+        </UPCs>
         <BrandExternalId>helmboots</BrandExternalId>
       </Product>
 
@@ -39,9 +43,11 @@
         <ExternalId>ayers</ExternalId>
         <Name>Ayers</Name>
         <CategoryExternalId>boots</CategoryExternalId>
-        <ProductPageURL>fill in with heroku</ProductPageURL>
+        <ProductPageUrl>fill in with heroku</ProductPageUrl>
         <ImageUrl></ImageUrl>
-        <UPCs>123456789013</UPCs>
+        <UPCs>
+          <UPC>123456789013</UPC>
+        </UPCs>
         <BrandExternalId>helmboots</BrandExternalId>
       </Product>
 
@@ -49,9 +55,11 @@
         <ExternalId>muller-teak</ExternalId>
         <Name>Muller-Teak</Name>
         <CategoryExternalId>boots</CategoryExternalId>
-        <ProductPageURL>fill in with heroku</ProductPageURL>
+        <ProductPageUrl>fill in with heroku</ProductPageUrl>
         <ImageUrl></ImageUrl>
-        <UPCs>123456789014</UPCs>
+        <UPCs>
+          <UPC>123456789014</UPC>
+        </UPCs>
         <BrandExternalId>helmboots</BrandExternalId>
       </Product>
 
@@ -59,9 +67,11 @@
         <ExternalId>muller-brown</ExternalId>
         <Name>Muller-Brown</Name>
         <CategoryExternalId>boots</CategoryExternalId>
-        <ProductPageURL>fill in with heroku</ProductPageURL>
+        <ProductPageUrl>fill in with heroku</ProductPageUrl>
         <ImageUrl></ImageUrl>
-        <UPCs>123456789015</UPCs>
+        <UPCs>
+          <UPC>123456789015</UPC>
+        </UPCs>
         <BrandExternalId>helmboots</BrandExternalId>
       </Product>
 
@@ -69,11 +79,13 @@
         <ExternalId>phillips</ExternalId>
         <Name>Phillips</Name>
         <CategoryExternalId>boots</CategoryExternalId>
-        <ProductPageURL>fill in with heroku</ProductPageURL>
+        <ProductPageUrl>fill in with heroku</ProductPageUrl>
         <ImageUrl></ImageUrl>
-        <UPCs>123456789016</UPCs>
+        <UPCs>
+          <UPC>123456789016</UPC>
+        </UPCs>
         <BrandExternalId>helmboots</BrandExternalId>
       </Product>
     </Products>
 
-  </feed>
+  </Feed>
