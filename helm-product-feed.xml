@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+  <Feed name="Apples_n_Bananas" extractDate="2015-10-13T13:56:25" incremental="false" xmlns="http://www.bazaarvoice.com/xs/PRR/ProductFeed/5.6">
+    <Brands>
+      <Brand>
+        <ExternalId>helmboots</ExternalId>
+        <Name>Helm</Name>
+      </Brand>
+    </Brands>
+
+    <Categories>
+      <Category>
+        <ExternalId>boots</ExternalId>
+        <CategoryPageUrl>fill in with heroku</CategoryPageUrl>
+      </Category>
+    </Categories>
+
+    <Products>
+      <Product>
+        <ExternalId>kiffen</ExternalId>
+        <Name>Kiffen</Name>
+        <CategoryExternalId>boots</CategoryExternalId>
+        <ProductPageURL>fill in with heroku</ProductPageURL>
+        <ImageUrl></ImageUrl>
+        <UPCs>123456789011</UPCs>
+        <BrandExternalId>helmboots</BrandExternalId>
+      </Product>
+
+      <Product>
+        <ExternalId>wells</ExternalId>
+        <Name>Wells</Name>
+        <CategoryExternalId>boots</CategoryExternalId>
+        <ProductPageURL>fill in with heroku</ProductPageURL>
+        <ImageUrl></ImageUrl>
+        <UPCs>123456789012</UPCs>
+        <BrandExternalId>helmboots</BrandExternalId>
+      </Product>
+
+      <Product>
+        <ExternalId>ayers</ExternalId>
+        <Name>Ayers</Name>
+        <CategoryExternalId>boots</CategoryExternalId>
+        <ProductPageURL>fill in with heroku</ProductPageURL>
+        <ImageUrl></ImageUrl>
+        <UPCs>123456789013</UPCs>
+        <BrandExternalId>helmboots</BrandExternalId>
+      </Product>
+
+      <Product>
+        <ExternalId>muller-teak</ExternalId>
+        <Name>Muller-Teak</Name>
+        <CategoryExternalId>boots</CategoryExternalId>
+        <ProductPageURL>fill in with heroku</ProductPageURL>
+        <ImageUrl></ImageUrl>
+        <UPCs>123456789014</UPCs>
+        <BrandExternalId>helmboots</BrandExternalId>
+      </Product>
+
+      <Product>
+        <ExternalId>muller-brown</ExternalId>
+        <Name>Muller-Brown</Name>
+        <CategoryExternalId>boots</CategoryExternalId>
+        <ProductPageURL>fill in with heroku</ProductPageURL>
+        <ImageUrl></ImageUrl>
+        <UPCs>123456789015</UPCs>
+        <BrandExternalId>helmboots</BrandExternalId>
+      </Product>
+
+      <Product>
+        <ExternalId>phillips</ExternalId>
+        <Name>Phillips</Name>
+        <CategoryExternalId>boots</CategoryExternalId>
+        <ProductPageURL>fill in with heroku</ProductPageURL>
+        <ImageUrl></ImageUrl>
+        <UPCs>123456789016</UPCs>
+        <BrandExternalId>helmboots</BrandExternalId>
+      </Product>
+    </Products>
+
+  </feed>
