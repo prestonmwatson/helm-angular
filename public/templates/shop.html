@@ -2,7 +2,7 @@
   <div class="row boots">
 
   <div class="col-xs-6 col-md-4" ng-repeat='obj in products.productList'>
-    <div class="product" ui-sref='product' ng-click='products.bootPicker(obj)'>
+    <div class="product" ui-sref='product.description' ng-click='products.bootPicker(obj)'>
       <img src='{{ obj.image }}' alt="kiffen" />
       <div class="product-info">
         <p>{{ obj.name }}</p>
