@@ -10,7 +10,7 @@
     <Categories>
       <Category>
         <ExternalId>boots</ExternalId>
-        <CategoryPageUrl>fill in with heroku</CategoryPageUrl>
+        <CategoryPageUrl>https://mighty-retreat-78030.herokuapp.com/#/shop</CategoryPageUrl>
       </Category>
     </Categories>
 
@@ -19,7 +19,7 @@
         <ExternalId>kiffen</ExternalId>
         <Name>Kiffen</Name>
         <CategoryExternalId>boots</CategoryExternalId>
-        <ProductPageUrl>fill in with heroku</ProductPageUrl>
+        <ProductPageUrl>https://mighty-retreat-78030.herokuapp.com/#/product/description</ProductPageUrl>
         <ImageUrl></ImageUrl>
         <UPCs>
           <UPC>123456789011</UPC>
@@ -31,7 +31,7 @@
         <ExternalId>wells</ExternalId>
         <Name>Wells</Name>
         <CategoryExternalId>boots</CategoryExternalId>
-        <ProductPageUrl>fill in with heroku</ProductPageUrl>
+        <ProductPageUrl>https://mighty-retreat-78030.herokuapp.com/#/product/description</ProductPageUrl>
         <ImageUrl></ImageUrl>
         <UPCs>
           <UPC>123456789012</UPC>
@@ -43,7 +43,7 @@
         <ExternalId>ayers</ExternalId>
         <Name>Ayers</Name>
         <CategoryExternalId>boots</CategoryExternalId>
-        <ProductPageUrl>fill in with heroku</ProductPageUrl>
+        <ProductPageUrl>https://mighty-retreat-78030.herokuapp.com/#/product/description</ProductPageUrl>
         <ImageUrl></ImageUrl>
         <UPCs>
           <UPC>123456789013</UPC>
@@ -55,7 +55,7 @@
         <ExternalId>muller-teak</ExternalId>
         <Name>Muller-Teak</Name>
         <CategoryExternalId>boots</CategoryExternalId>
-        <ProductPageUrl>fill in with heroku</ProductPageUrl>
+        <ProductPageUrl>https://mighty-retreat-78030.herokuapp.com/#/product/description</ProductPageUrl>
         <ImageUrl></ImageUrl>
         <UPCs>
           <UPC>123456789014</UPC>
@@ -67,7 +67,7 @@
         <ExternalId>muller-brown</ExternalId>
         <Name>Muller-Brown</Name>
         <CategoryExternalId>boots</CategoryExternalId>
-        <ProductPageUrl>fill in with heroku</ProductPageUrl>
+        <ProductPageUrl>https://mighty-retreat-78030.herokuapp.com/#/product/description</ProductPageUrl>
         <ImageUrl></ImageUrl>
         <UPCs>
           <UPC>123456789015</UPC>
@@ -79,7 +79,7 @@
         <ExternalId>phillips</ExternalId>
         <Name>Phillips</Name>
         <CategoryExternalId>boots</CategoryExternalId>
-        <ProductPageUrl>fill in with heroku</ProductPageUrl>
+        <ProductPageUrl>https://mighty-retreat-78030.herokuapp.com/#/product/description</ProductPageUrl>
         <ImageUrl></ImageUrl>
         <UPCs>
           <UPC>123456789016</UPC>
