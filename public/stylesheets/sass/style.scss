@@ -84,16 +84,26 @@ footer {
     }
 
     .cart {
-      margin: 30px 0 0 7px;
+      margin: 5px 0 10px 0;
       width: 150px;
       background-color: darken(grey, .8);
       color: white;
     }
+
+    .nav {
+      a {
+        color: black;
+      }
+    }
+
+    .tab-text {
+      padding: 10px;
+    }
   }
 
-  .pdp-text {
-    margin-left: 10px;
-  }
+  // .pdp-text {
+  //   margin-left: 10px;
+  // }
 
   .pdp-bottom {
     text-align: center;

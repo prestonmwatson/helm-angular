@@ -49,13 +49,16 @@ footer {
   border-left: lightgrey solid 1px; }
 
 .pdp .pdp-top .cart {
-  margin: 30px 0 0 7px;
+  margin: 5px 0 10px 0;
   width: 150px;
   background-color: #7e7e7e;
   color: white; }
 
-.pdp .pdp-text {
-  margin-left: 10px; }
+.pdp .pdp-top .nav a {
+  color: black; }
+
+.pdp .pdp-top .tab-text {
+  padding: 10px; }
 
 .pdp .pdp-bottom {
   text-align: center; }

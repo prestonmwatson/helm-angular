@@ -1,13 +1,13 @@
 <div class="container pdp">
 
     <div class="pdp-top">
-      <div class="col-xs-6">
+      <div class="col-xs-5">
         <img src="{{ products.selected_product[0].image }}" alt="" />
       </div>
       <div class="col-md-1">
         <div class="grey-bar"></div>
       </div>
-      <div class="col-xs-5">
+      <div class="col-xs-6">
         <div class="pdp-text">
           <h3>{{ products.selected_product[0].name }}</h3>
           <h3>{{ products.selected_product[0].price | currency:"$" }}</h3>
@@ -15,6 +15,23 @@
         <div class="add-to-cart">
           <button type="button" class="btn btn-default cart">Add to cart</button>
         </div>
+
+        <!--  tabs system  -->
+        <div>
+
+          <!-- Nav tabs -->
+          <ul class="nav nav-tabs" role="tablist">
+            <li role="presentation" class="active"><a href="#" role="tab" data-toggle="tab">Description</a></li>
+            <li role="presentation"><a href="#" aria-controls="profile" role="tab" data-toggle="tab">Ratings and Reviews</a></li>
+            <li role="presentation"><a href="#" aria-controls="profile" role="tab" data-toggle="tab">Q & A</a></li>
+          </ul>
+
+          <div class="tab-text">
+            <p>{{ products.selected_product[0].description }}</p>
+          </div>
+
+        </div>
+
       </div>
     </div>
 
