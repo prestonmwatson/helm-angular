@@ -14,12 +14,22 @@ angular
         templateUrl: '../templates/shop.html'
       })
       .state('product', {
-        url: '/product?name',
-        templateUrl: '../templates/product.html',
-        controller: function($scope, $stateParams){
-          $scope.name = $stateParams.name;
-        }
+        url: '/product',
+        templateUrl: '../templates/product.html'
       })
+      .state('product.description', {
+        url: '/description',
+        templateUrl: '../templates/tabs/description.html'
+      })
+      .state('product.ratings', {
+        url: '/ratings',
+        templateUrl: '../templates/tabs/ratings.html'
+      })
+      .state('product.questions', {
+        url: '/questions',
+        templateUrl: '../templates/tabs/questions.html'
+      })
+
 
       $urlRouterProvider.otherwise('/');
   }

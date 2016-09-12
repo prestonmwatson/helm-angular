@@ -21,12 +21,13 @@
 
           <!-- Nav tabs -->
           <ul class="nav nav-tabs" role="tablist">
-            <li role="presentation" class="active"><a href="#" role="tab" data-toggle="tab">Description</a></li>
-            <li role="presentation"><a href="#" aria-controls="profile" role="tab" data-toggle="tab">Ratings and Reviews</a></li>
-            <li role="presentation"><a href="#" aria-controls="profile" role="tab" data-toggle="tab">Q & A</a></li>
+            <li role="presentation" ui-sref-active="active"><a ui-sref='.description' role="tab" data-toggle="tab">Description</a></li>
+            <li role="presentation" ui-sref-active='active'><a ui-sref='.ratings' aria-controls="profile" role="tab" data-toggle="tab">Ratings and Reviews</a></li>
+            <li role="presentation" ui-sref-active='active'><a ui-sref='.questions' aria-controls="profile" role="tab" data-toggle="tab">Q & A</a></li>
           </ul>
 
           <div class="tab-text">
+            <ui-view>
             <p>{{ products.selected_product[0].description }}</p>
           </div>
 
