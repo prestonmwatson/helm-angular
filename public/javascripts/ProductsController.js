@@ -25,7 +25,7 @@ angular
         {
           'name':'Ayers',
           'price':499,
-          'image':'/images/ayers.jpg',
+          'image':'/images/ayers.JPG',
           'description': 'Based on the Jack from the first season of HELM, The Ayers is an update for the modern man. It now features the signature white midsole with a HELM branded Raptor sole, adding beautifully detailed contrast against the Black Tasman leather while still remaining lightweight and durable. A more streamlined profile gives this style a dressier look, allowing it to step into the work-inspired fashion category. These elements give it the endurance and comfort of a work boot but allow it to fit in easily at the office or in any social setting.'
         },
         {
