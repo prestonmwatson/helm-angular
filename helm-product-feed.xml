@@ -21,10 +21,7 @@
         <Name>Kiffen</Name>
         <CategoryExternalId>boots</CategoryExternalId>
         <ProductPageUrl>https://mighty-retreat-78030.herokuapp.com/#/product/description</ProductPageUrl>
-        <ImageUrl></ImageUrl>
-        <UPCs>
-          <UPC>123456789011</UPC>
-        </UPCs>
+        <ImageUrl>https://mighty-retreat-78030.herokuapp.com/images/kiffen.jpg</ImageUrl>
         <BrandExternalId>helmboots</BrandExternalId>
       </Product>
 
@@ -33,10 +30,7 @@
         <Name>Wells</Name>
         <CategoryExternalId>boots</CategoryExternalId>
         <ProductPageUrl>https://mighty-retreat-78030.herokuapp.com/#/product/description</ProductPageUrl>
-        <ImageUrl></ImageUrl>
-        <UPCs>
-          <UPC>123456789012</UPC>
-        </UPCs>
+        <ImageUrl>https://mighty-retreat-78030.herokuapp.com/images/wells.jpg</ImageUrl>
         <BrandExternalId>helmboots</BrandExternalId>
       </Product>
 
@@ -45,10 +39,7 @@
         <Name>Ayers</Name>
         <CategoryExternalId>boots</CategoryExternalId>
         <ProductPageUrl>https://mighty-retreat-78030.herokuapp.com/#/product/description</ProductPageUrl>
-        <ImageUrl></ImageUrl>
-        <UPCs>
-          <UPC>123456789013</UPC>
-        </UPCs>
+        <ImageUrl>https://mighty-retreat-78030.herokuapp.com/images/ayers.JPG</ImageUrl>
         <BrandExternalId>helmboots</BrandExternalId>
       </Product>
 
@@ -57,10 +48,7 @@
         <Name>Muller-Teak</Name>
         <CategoryExternalId>boots</CategoryExternalId>
         <ProductPageUrl>https://mighty-retreat-78030.herokuapp.com/#/product/description</ProductPageUrl>
-        <ImageUrl></ImageUrl>
-        <UPCs>
-          <UPC>123456789014</UPC>
-        </UPCs>
+        <ImageUrl>https://mighty-retreat-78030.herokuapp.com/images/muller-teak.jpg</ImageUrl>
         <BrandExternalId>helmboots</BrandExternalId>
       </Product>
 
@@ -69,10 +57,7 @@
         <Name>Muller-Brown</Name>
         <CategoryExternalId>boots</CategoryExternalId>
         <ProductPageUrl>https://mighty-retreat-78030.herokuapp.com/#/product/description</ProductPageUrl>
-        <ImageUrl></ImageUrl>
-        <UPCs>
-          <UPC>123456789015</UPC>
-        </UPCs>
+        <ImageUrl>https://mighty-retreat-78030.herokuapp.com/images/muller-brown.jpg</ImageUrl>
         <BrandExternalId>helmboots</BrandExternalId>
       </Product>
 
@@ -81,10 +66,7 @@
         <Name>Phillips</Name>
         <CategoryExternalId>boots</CategoryExternalId>
         <ProductPageUrl>https://mighty-retreat-78030.herokuapp.com/#/product/description</ProductPageUrl>
-        <ImageUrl></ImageUrl>
-        <UPCs>
-          <UPC>123456789016</UPC>
-        </UPCs>
+        <ImageUrl>https://mighty-retreat-78030.herokuapp.com/images/phillips.jpg</ImageUrl>
         <BrandExternalId>helmboots</BrandExternalId>
       </Product>
     </Products>
