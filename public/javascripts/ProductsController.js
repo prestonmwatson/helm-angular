@@ -4,9 +4,14 @@ angular
 
     ProductsController.$inject = ['$state'];
 
-    function ProductsController(){
+    function ProductsController($scope){
       var self = this;
 
+    $scope.isDisabled = false;
+
+    $scope.disableButton = function() {
+        $scope.isDisabled = true;
+    }
 
 
       this.productList = [
@@ -60,6 +65,15 @@ angular
         self.selected_product.pop();
         self.selected_product.push(boot);
       }
+
+      // this.cart = [];
+      // this.addToCart = function //push selected product to add to Cart
+
+
+
+
+
+
 
 
     }

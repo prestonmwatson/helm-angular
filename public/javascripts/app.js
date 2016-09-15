@@ -29,6 +29,14 @@ angular
         url: '/questions',
         templateUrl: '../templates/tabs/questions.html'
       })
+      .state('cart', {
+        url: '/cart',
+        templateUrl: '../templates/cart.html'
+      })
+      .state('confirmation', {
+        url: '/confirmation',
+        templateUrl: '../templates/confirmation.html'
+      })
 
 
       $urlRouterProvider.otherwise('/');

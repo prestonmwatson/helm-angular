@@ -15,6 +15,10 @@
         <div class="add-to-cart">
           <button type="button" class="btn btn-default cart">Add to cart</button>
         </div>
+        <div class="checkout">
+          <button class='btn btn-default cart' ui-sref='cart' ng-disabled="isDisabled" >Checkout</button>
+           <button type="submit"  ng-click="disableButton()"> Click me to disable myself</button>
+        </div>
 
         <!--  tabs system  -->
         <div>
