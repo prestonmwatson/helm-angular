@@ -1,16 +1,22 @@
- <script type="text/javascript">
+<!--  <script type="text/javascript">
    $BV.SI.trackTransactionPageView({
         /* Interaction data goes here...
            See "Adding Integration Tagging" topic for details...
         */
    });
-</script>
+</script> -->
 
 
 <div class="container">
   <div class="row boots">
         <h3>Thank you for ordering.</h3>
-      </div>
-    </div>
+  </div>
+
+  <div class="row">
+  	<h3>Summary of order:</h3>
+  	<img src='{{ obj.image }}' alt="kiffen" />
+   	<p>{{ obj.name }}</p>
+  </div>
+</div>
 
 

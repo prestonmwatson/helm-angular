@@ -4,14 +4,8 @@ angular
 
     ProductsController.$inject = ['$state'];
 
-    function ProductsController($scope){
+    function ProductsController(){
       var self = this;
-
-    $scope.isDisabled = false;
-
-    $scope.disableButton = function() {
-        $scope.isDisabled = true;
-    }
 
 
       this.productList = [
@@ -66,14 +60,14 @@ angular
         self.selected_product.push(boot);
       }
 
-      // this.cart = [];
-      // this.addToCart = function //push selected product to add to Cart
+      this.cart = [];
 
+      this.addToCart = function () {
+        this.cart.push(self.selected_product[0])
+        console.log("success");
+        console.log(self.cart);
+      }
 
+ 
+};
 
-
-
-
-
-
-    }

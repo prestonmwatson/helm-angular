@@ -70,4 +70,9 @@ footer {
     margin-left: 50px; }
   .pdp .pdp-bottom .product-info {
     text-align: left;
-    margin-left: 60px; }
+    margin-left: 60px; 
+  }
+
+  .cart-summary {
+    margin-right: 30px;
+  }

@@ -13,11 +13,10 @@
           <h3>{{ products.selected_product[0].price | currency:"$" }}</h3>
         </div>
         <div class="add-to-cart">
-          <button type="button" class="btn btn-default cart">Add to cart</button>
+          <button type="button" class="btn btn-default cart" ng-click="products.addToCart()">Add to cart</button>
         </div>
         <div class="checkout">
-          <button class='btn btn-default cart' ui-sref='cart' ng-disabled="isDisabled" >Checkout</button>
-           <button type="submit"  ng-click="disableButton()"> Click me to disable myself</button>
+          <button class='btn btn-default cart' ui-sref='cart'>Checkout</button>
         </div>
 
         <!--  tabs system  -->
