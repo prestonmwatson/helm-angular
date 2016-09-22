@@ -1,26 +1,54 @@
 <hr>
 <div class="cartheader">
-	<h2>YOUR CART</h2>
+	<h2 class="yourcart">YOUR CART</h2>
+	<button type="button" class="btn btn-default continue" ui-sref="shop">Continue Shopping</button>
+</div>
+
+
+
+<div class="row">
+	
+	<div class="col-xs-6 col-md-3">
+		<img src='{{ products.selected_product[0].image }}' class="bootimg"/>
+	</div>
+
+	<div class="col-xs-6 col-md-3">
+   		<p class="product-cart-name">{{ products.selected_product[0].name }}</p>
+	</div>
+
+	<div class="col-xs-6 col-md-3">
+		<p class="product-cart-name">Quantity: {{products.selected_product.length}}</p>
+	</div>
+
+
+	
+	<div class="col-xs-6 col-md-3">
+		<p class="product-cart-name">{{ products.selected_product[0].price | currency:"$" }}</p>
+	</div>
+
 </div>
 
 <div class="row">
-	<h4 ui-sref='shop'>Continue Shopping</h4>
-
-	<div class="col-xs-6 col-md-3">
-   		<img src='{{ obj.image }}' alt="kiffen" />
-   		<p>{{ obj.name }}</p>
-	</div>
-
-	<div class="col-xs-6 col-md-3">
-		<p>Quantity</p>
-	</div>
 	
 	<div class="col-xs-6 col-md-3">
-		<p>{{ obj.price | currency:"$" }}</p>
+		<img src='{{ products.selected_product[1].image }}' class="bootimg"/>
 	</div>
 
+	<div class="col-xs-6 col-md-3">
+   		<p class="product-cart-name">{{ products.selected_product[1].name }}</p>
+	</div>
+
+<!-- 	<div class="col-xs-6 col-md-3">
+		<p class="product-cart-name">Quantity: {{products.selected_product.length}}</p>
+	</div>
+
+	<div class="col-xs-6 col-md-3">
+		<p class="product-cart-name">{{ products.selected_product[1].price | currency:"$" }}</p>
+	</div> -->
 
 </div>
-	<button class='btn btn-default cart' ui-sref='confirmation'>CONFIRM</button>
+
+<div class="row"></div>
+	<button class='btn btn-default cart confirm' ui-sref='confirmation'>Confirm</button>
 
 

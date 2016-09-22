@@ -66,6 +66,7 @@ angular
         this.cart.push(self.selected_product[0])
         console.log("success");
         console.log(self.cart);
+        console.log(self.cart[0].name);
       }
 
  

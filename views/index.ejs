@@ -39,7 +39,7 @@
           </div>
           <div class="col-sm-1">
             <ul class='cart-overview'>
-              <li class='cart-summary'><p ui-sref='cart'>Cart: <span class="cart-summary-span"></span></p></li>
+              <li class='cart-summary'><p ui-sref='cart'>Cart: <span ng-bind="{{self.cart.length}}"></span></p></li>
             </ul>
           </div>
         </div>
