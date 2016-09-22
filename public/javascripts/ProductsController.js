@@ -69,6 +69,10 @@ angular
         console.log(self.cart[0].name);
       }
 
+      this.addToCartAlert = function () {
+        
+      }
+
  
 };
 
